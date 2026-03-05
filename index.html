@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Coronel -Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" 
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+        <!--Navbar-->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__inner">
+                <a href="#" class="brand" aria-label="Rafael Coronel Logo">
+                    <span>Rafael.</span>
+                </a>
+                <nav class="sidebar__nav" aria-label="Primary">
+                    <a href="#home" class="sidebar__link">Home</a>
+                    <a href="#about" class="sidebar__link">Sobre mim</a>
+                    <a href="#service" class="sidebar__link">Serviços</a>
+                    <a href="#about" class="sidebar__link">Exp</a>
+                    <a href="#projects" class="sidebar__link">Projetos</a>
+                    <a href="#contact" class="sidebar__link">Contato</a>
+                </nav>
+                <div class="sidebar__social">
+                    <a href="#" aria-label="Behance">
+                        <span>Be</span>
+                    </a>
+                    <a href="#" aria-label="Dribble">
+                        <span>Dr</span>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <span>Ig</span>
+                    </a>
+                </div>
+                <div class="sidebar__footer">
+                    Copyright © 2026 Rafael Silva Coronel <br> Todos direitos Reservados.
+                </div>
+            </div>
+        </aside>
+        <button class="mobile-menu" id="mobileMenu" aria-expanded="false">
+            <span class="mobile-menu__line"></span>
+            <span class="mobile-menu__line"></span>
+            <span class="mobile-menu__line"></span>
+            <span class="sr-only">Menu</span>
+        </button>
+
+        <main class="main-content">
+            <!-- Hero Section -->
+             <section id="home" class="section hero">
+                <div class="hero__background" aria-hidden="true">
+                    <span class="hero-orb hero__orb--one"></span>
+                    <span class="hero-orb hero__orb--two"></span>
+                    <span class="hero__grid"></span>
+                </div>
+                <div class="hero__content" data-animate="fade-right">
+                    <p class="section-label">Home</p>
+                    <h1 class="hero__title">
+                        Olá, chamo-me <span>Rafael Coronel.</span>
+                    </h1>
+                    <p class="hero__subtitle" data-primary="fade-up" style="animation-delay:0.1s;">
+                        Cybersecurity Analyst - Analista de Cibersegurança
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#" class="button button--primary" id="contactBtn">
+                            Entre em contato comigo
+                            <span aria-hidden="true">⬈</span>
+                        </a>
+                    </div>
+                    <div class="hero__meta">
+                        <div class="hero__meta-item">
+                            <span class="hero__meta-icon">☎</span>
+                            <span>+238 5845140</span>
+                        </div>
+                        <div class="hero__meta-item">
+                            <span class="hero__meta-icon">📩</span>
+                            <span>rafacoronel8@hotmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <div class="hero__image-wrapper">
+                        <img src="assets/minhafoto2.png" alt="hero image" class="hero__image">
+                    </div>
+                </div>
+                <a href="#about" class="hero_scroll">
+                    <span class="hero__scroll-circle">
+                        <span class="hero__scroll-arrow">↓ </span>
+                        <span class="hero__scroll-label">Scroll</span>
+                    </span>
+                </a>
+             </section>
+
+            <!-- About Section-->
+             <section id="about" class="section about">
+                <div class="about__intro">
+                    <p class="section-label">Prazer em conhece-lo</p>
+                    <h2 class="section-title">Bem vindo...</h2>
+                </div>
+                <div class="about__content">
+                    <div class="about__card">
+                        <img src="assets/foto2.png" alt="">
+                    </div>
+                    <div class="about__details">
+                        <h3>Rafael Coronel</h3>
+                        <p class="about__role">Cybersecurity Analyst - Analista de Cibersegurança</p>
+                        <p class="about__text">
+                            <br>
+                            Olá! Chamo-me Rafael Coronel, sou licenciado em Segurança Informática em Redes 
+                            de Computadores pela Escola Superior de Tecnologia e Gestão do Politécnico do Porto em Portugal.
+                            Trago comigo inovações para a área de Segurança Informática em Cabo Verde, desde a análise de
+                            vulnerabilidades até a proteção do seu sistema. Para mais informações entre em contato pelo número indicado ou pelo email.
+                        </p>
+                        <br>
+                        <a href="assets/CV.pdf" download class="button button--ghost">
+                            Download CV
+                            <span aria-hidden="true">⬈</span>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="about__stats">
+                    <div class="about__stat">
+                        <span class="about__stat-value">6+</span>
+                        <span class="about__stat-label">Anos de Experiência...</span>
+                        <p class="about__stat-text">
+                            Com mais de 6 anos na área de Cibersegurança, trago comigo
+                            a proteção Cibernética que a sua empresa necessita.
+                        </p>
+                    </div>
+                    <div class="about__stat">
+                        <span class="about__stat-value">ESTG</span>
+                        <span class="about__stat-label">Politécnico do Porto</span>
+                        <p class="about__stat-text">
+                            Formado numa das universidades mais renomeadas de Portugal, Escola 
+                            Superior de Tecnologia e Gestão.
+                        </p>
+                    </div>
+                    <br>
+                    <div style="height: 40px;"></div>
+                    <blogquote class="about__quote">
+                        "A maior ameaça à segurança da informação é acreditar que você está seguro."
+                    </blogquote>           
+                </div>
+                <br>
+                <div class="experience">
+                    <div class="experience__content">
+                        <p class="section-label">Experiência</p>
+                        <h2 class="section-title">Minha Experiência</h2>
+                        <p class="experience__text">
+                            Ao longo da minha trajetória, desenvolvi competências práticas e técnicas em diferentes áreas da informática e da cibersegurança.
+                            Desenvolvi ao longo da minha carreira projetos nos mais diversos ramos e setores da rede e de segurança Informática.
+                        </p>
+                        <br>
+                        <a href="assets/CV - Analista de segurança Rafael Coronel.pdf" download class="button button--primary">
+                            Download CV/Resume
+                            <span aria-hidden="true">⬈</span>
+                        </a>
+                    </div>
+                    <ul class="experience__timeline">
+                        <li>
+                            <span class="experience__time">2019 - Presente</span>
+                            <span class="experience__time">Cybersecurity Projects</span>
+                        </li>
+                        <li>
+                            <span class="experience__time">2025 - 2026</span>
+                            <span class="experience__time">Help Desk</span>
+                            <span class="experience__time">Cybersecurity events analyze</span>
+                        </li>
+                        <li>
+                            <span class="experience__time">2025 - 2026</span>
+                            <span class="experience__time">Docente ISCEE</span>
+                            <span class="experience__time">Programação e Ciência de Dados</span>
+                        </li>
+                        <li>
+                            <span class="experience__time">2025 - 2026</span>
+                            <span class="experience__time">Formador IEFP</span>
+                            <span class="experience__time">Programação de Aplicações IoT</span>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+             <!-- Services Section -->
+              <section id="service" class="section services">
+                <div class="service__header">
+                    <p class="section-label">Serviços</p>
+                    <h2 class="section-title">Especialidades</h2>
+                </div>
+                <div class="service-list" data-visual="assets/">
+                    <article class="service-item service-item--accent">
+                        <div>
+                            <h3>Pentesting</h3>
+                            <p>A proteção do seu sistema é a parte mais 
+                                importante para o bom funcionamento da mesma.
+                                A primeira defesa é o ataque.
+                            </p>
+                        </div>
+                        <div class="button service-item__toggle">
+                            <span>+</span>
+                        </div>
+                    </article>
+                    <article class="service-item service-item--accent">
+                        <div>
+                            <h3>SOC - Security Operation Center</h3>
+                            <p>Analise e controlo de todo o trafego da sua rede.
+                                Tenha controlo total do que se passa dentro da sua organização.
+                                Prevenção de ataques e análise de logs.
+                            </p>
+                        </div>
+                        <div class="button service-item__toggle">
+                            <span>+</span>
+                        </div>
+                    </article>
+                    <article class="service-item service-item--accent">
+                        <div>
+                            <h3>Incident Response</h3>
+                            <p>Resposta a incidentes recorrentes na sua empresa. Proteção contra ramsomwares, 
+                                phishing, etc.
+                            </p>
+                        </div>
+                        <div class="button service-item__toggle">
+                            <span>+</span>
+                        </div>
+                    </article>
+                </div>
+              </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section projects">
+
+                <div class="projects__header">
+                    <p class="section-label">Projetos</p>
+                    <h2 class="section-title">Meus Projetos</h2>
+                    <p class="projects__subtitle">
+                        Alguns projetos desenvolvidos na área de cibersegurança, análise de redes e proteção de sistemas.
+                    </p>
+                </div>
+
+                <div class="projects__grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+
+                        <div class="project-card__image">
+                            <img src="assets/honey.png" alt="Pentesting Project">
+                        </div>
+
+                        <div class="project-card__content">
+
+                            <h3>Honeypod</h3>
+
+                            <p>
+                                Honeypod é como um sistema sofisticado onde 
+                                vamos configurar uma isca que por sua vez será utilizado para caçar 
+                                hackers, sendo uma forma escondida de controlar um hacker
+                            </p>
+
+                            <div class="project-card__actions">
+
+                                <a href="assets/Projeto 1-Honeypod.pdf" class="button button--ghost" download>
+                                    Relatório
+                                </a>
+
+                                
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-card__image">
+                            <img src="assets/soc.png" alt="SOC Monitoring">
+                        </div>
+
+                        <div class="project-card__content">
+
+                            <h3>SOC Network Monitoring</h3>
+
+                            <p>
+                                Implementação de monitorização de rede utilizando
+                                SIEM para análise de logs e detecção de incidentes.
+                            </p>
+
+                            <div class="project-card__actions">
+
+                                <a href="assets/report-soc.pdf" class="button button--ghost" download>
+                                    Atualizando
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-card__image">
+                            <img src="assets/incidentresponse.png" alt="Incident Response">
+                        </div>
+
+                        <div class="project-card__content">
+
+                            <h3>Incident Response Simulation</h3>
+
+                            <p>
+                                Simulação de resposta a ransomware com análise
+                                de tráfego e mitigação de ataque.
+                            </p>
+
+                            <div class="project-card__actions">
+
+                                <a href="assets/report-ir.pdf" class="button button--ghost" download>
+                                    Atualizando
+                                </a>
+
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const btn = document.getElementById("contactBtn");
+
+            btn.addEventListener("click", function (e) {
+
+                e.preventDefault();
+
+                const email = "rafacoronel8@hotmail.com";
+                const phone = "+2385845140";
+
+                const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+
+                if (isMobile) {
+                    window.location.href = "tel:" + phone;
+                } else {
+                    window.location.href = "mailto:" + email;
+                }
+
+            });
+
+        });
+
+    </script>
+</body>
+</html>
